@@ -9,6 +9,8 @@ class App extends Component {
 
   componentDidMount = async () => {
     try {
+      const x = ['lol','xd'];
+      x.forEach(ele=>console.log(ele));
       // Get network provider and web3 instance.
       const web3 = await getWeb3();
 
